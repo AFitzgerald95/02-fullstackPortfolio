@@ -1,6 +1,28 @@
 /* GLOBAL */
-:root {
+/* :root { */
+    --silver: #c0c0c0;
+    --gray: #808080;
+    --black: #000;
+    --white: #fff;
+}
 
+* {
+    box-sizing: border-box;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+a:hover {
+    color: blue
+    ;
+}
+
+a   {
+    color:var(--white);
+}
+
+cursor {
+    
 }
 
 /* ID SECTION */
@@ -21,10 +43,19 @@
 
 }
 
+#af-logo {
+    border: 3px solid var(--white);
+    border-radius: 60px;
+    width:  100px;
+    height: 100px;
+    padding: 5px;
+
+}
+
 /* CLASS SECTION */
 
 .page-section {
-
+border: 2px solid;
 }
 
 .page-wrapper {
@@ -32,18 +63,22 @@
 }
 
 .hero-banner {
-
+border: 2px solid;
 }
 
 .nav {
-
+display: inline;
+position: ;
 }
 
 .page-selection-contact {
-
+border: 2px solid;
 }
 
 .flex-container {
-    
+
 }
 
+.project-link {
+
+}
