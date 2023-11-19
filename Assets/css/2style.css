@@ -1,0 +1,203 @@
+/* GLOBAL */
+:root {
+    --silver: #c0c0c0;
+    --gray: #808080;
+    --black: #000;
+    --white: #fff;
+    --roundedge: 15px;
+    --sectionpadding: 5px;
+}
+
+* {
+    box-sizing: border-box;
+    background-color: var(--black);
+    color: var(--white);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+a:hover {
+   color: var(--black);
+   /* background-color: var(--white); */
+}
+
+a   {
+    color:var(--white);
+    display: block;
+    padding: 8px;
+    background-color: var(--gray);
+    text-decoration: none;
+}
+
+#hero ul li a {
+    position: relative;
+    float: right;
+    text-decoration: none;
+    border: 1px solid white;
+    /* border-style: var(--roundedge); */
+    background-color: var(--black);
+    padding: 2px;
+
+}
+
+nav {
+
+}
+
+body {
+    margin: 30px;
+}
+
+li a:hover {
+    background-color: var(--white);
+}
+
+p {
+    background-color: var(--gray);
+    
+}
+
+cursor {
+    
+}
+
+ul {
+    list-style: none;
+
+}
+
+li  {
+    float: left;
+}
+
+h1 {
+    position: relative;
+    float: right;
+    width: 200px;
+    border: solid 2px white;
+    border-radius: var(--roundedge);
+    text-align: center;
+    padding: 2.5px;
+    /* margin-right: 20px; */
+    /* margin-top: 30px ; */
+}
+
+
+
+h2 {
+   /* display: block; */
+   background-color: var(--gray);
+   padding: var(--sectionpadding);
+   border: solid 2px white;
+   border-radius: var(--roundedge);
+   background-color: var(--black);
+   width: 175px;
+   text-align: center;
+}
+
+/* ID SECTION */
+
+#about  {
+
+}
+
+#hero {
+    background-color: var(--gray);
+    display: block;
+}
+
+#hero h2 {
+    position: relative;
+    float: right;
+    border: solid 2px white;
+    border-radius: var(--roundedge);
+    text-align: center;
+    background-color: var(--black);
+    width: 250px;
+    padding: 2.5px;
+}
+
+#work {
+
+}
+
+#contact {
+
+}
+
+#af-logo {
+    border: 3px solid var(--white);
+    border-radius: 60px;
+    width:  100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+/* CLASS SECTION */
+
+.hero-banner {
+    height: 150px;
+    display: block;
+}
+
+.header {
+
+}
+
+.header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.header h1 {
+
+}
+
+.nameplate
+
+.page-section {
+    border: 2px solid white;
+    background-color: var(--gray);
+    border-radius: var(--roundedge);
+    padding: var(--sectionpadding);
+}
+
+.page-wrapper {
+
+}
+
+.hero-banner {
+    border: 2px solid white;
+    border-radius: var(--roundedge);
+    background-color: var(--gray);
+    padding: var(--sectionpadding);
+}
+
+.nav {
+    
+}
+
+.page-selection-contact {
+    padding: var(--sectionpadding);
+    border: 2px solid white;
+    background-color: var(--gray);
+    border-radius: var(--roundedge);
+}
+
+.page-section #work {
+ padding: var(--sectionpadding);
+    border: 2px solid white;
+    background-color: var(--gray);
+    border-radius: var(--roundedge);
+}
+
+.flex-container {
+
+}
+
+.project-link {
+    
+}
+
+

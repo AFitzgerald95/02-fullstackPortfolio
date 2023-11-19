@@ -1,4 +1,8 @@
-/* GLOBAL */
+* {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 :root {
     --silver: #c0c0c0;
     --gray: #808080;
@@ -8,180 +12,151 @@
     --sectionpadding: 5px;
 }
 
-* {
-    box-sizing: border-box;
-    background-color: var(--black);
-    color: var(--white);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+body {
+    background-color: #000;
+    margin: 20px;
 }
 
 a:hover {
-   color: var(--black);
-}
-
-a   {
-    color:var(--white);
-    display: block;
-    padding: 8px;
-    background-color: var(--gray);
-    text-decoration: none;
-}
-
-nav li a {
-    text-decoration: none;
-    border: 1px solid white;
-    padding: 2px;
-
-}
-
-nav {
-
-}
-
-body {
-    margin: 30px;
-}
-
-li a:hover {
-    background-color: var(--white);
-}
-
-p {
-    background-color: var(--gray);
-    
-}
-
-cursor {
-    
-}
-
-ul {
-    list-style: none;
-
-}
-
-li  {
-    float: left;
+    color: #000;   
+    background-color: white;
+    border: #000 solid 3px;
 }
 
 h1 {
-    float: right;
-    width: 250px;
     border: solid 2px white;
-    border-radius: var(--roundedge);
-    text-align: center;
-    padding: var(--sectionpadding);
-    margin-right: 20px;
-    margin-top: 30px ;
-}
-
-h2 {
-   /* display: block; */
-   background-color: var(--gray);
-   padding: var(--sectionpadding);
-   border: solid 2px white;
-   border-radius: var(--roundedge);
-   background-color: var(--black);
-   width: 175px;
-   text-align: center;
-   text-wrap: ;
-}
-
-/* ID SECTION */
-
-#about  {
-
-}
-
-#hero {
-    background-color: var(--gray);
-}
-
-#hero h2 {
-    margin-right: 20px;
-    border: solid 2px white;
-    border-radius: var(--roundedge);
-    text-align: center;
-    background-color: var(--black);
     width: 250px;
-    padding: 2.5px;
-    float: right;
+    background-color: #000;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    bottom: 25px;
 }
 
-#work {
-
-}
-
-#contact {
-
+p {
+  position: relative;
+  top: 15px;
 }
 
 #af-logo {
-    border: 3px solid var(--white);
-    border-radius: 60px;
-    width:  100px;
-    height: 100px;
-    margin-top: 30px;
-    margin-left: 15px;
+    border: solid 2px white;
+    height: 60px;
+    width: 60px;
+    border-radius: 35px;
+   }
+
+#about-me   {
+    position: relative;
+    bottom: 20px;
+    border: solid 2px white;
+    width: 150px;
+    text-align: center;  
+    border-radius: 10px;
+    background-color: #000;
 }
 
-/* CLASS SECTION */
-
-.hero-banner {
-    height: 125px;
+#previous-work  {
+    position: relative;
+    bottom: 20px;
+    border: solid 2px white;
+    width: 200px;  
+    text-align: center;
+    border-radius: 10px;
+    background-color: #000;
 }
 
-.header img {
-    float: left;
-    width: 100px;
-    height: 100px;
+#contact-me {
+    position: relative;
+    bottom: 20px;
+    border: solid 2px white;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #000;
 }
 
-.header h1 {
-
+#project-links a {
+ 
 }
 
-.page-section {
-    border: 2px solid white;
-    background-color: var(--gray);
-    border-radius: var(--roundedge);
-    padding: var(--sectionpadding);
+.nameplate h2 {
+    border: solid 2px white;
+    width: 250px;
+    min-width: 100px;
+    background-color: black;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    bottom: 40px;
 }
 
-.page-wrapper {
-
-}
-
-.hero-banner {
-    border: 2px solid white;
-    border-radius: var(--roundedge);
-    background-color: var(--gray);
-    padding: var(--sectionpadding);
-    display: ;
-    justify-content: ;
-}
-
-.nav {
-    
-}
-
-.page-selection-contact {
-    padding: var(--sectionpadding);
-    border: 2px solid white;
-    background-color: var(--gray);
-    border-radius: var(--roundedge);
-}
-
-.page-section #work {
+.header {
 
 }
 
-.flex-container {
-
+.navbar {
+    background-color: #808080;
 }
 
-.project-link {
-    
+.navbar li { 
+    display: inline;
+    background-color: #808080;
+    position: relative;
+    top: 15px;
+    right: 45px;
 }
 
+.navbar li a {
+    background-color: #000;
+    border: solid 2px white;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 2.5px;
+}
 
+.navbar li a:hover  {
+    color: black;
+    background-color: white;
+    border: #000 solid 3px;
+}
+
+.nameplate {
+    background-color: #808080;
+    float: right;
+    height: 20px;
+}
+
+.section {
+    position: relative;
+    border: solid 2px white;
+    background-color: #808080;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.project-link   {
+    background-color: #000;
+    border: solid 2px white;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 2.5px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.content    {
+    background-color: #808080;
+    position: relative;
+    bottom: 30px;
+}
+
+.address-link {
+    background-color: #000;
+    border: solid 2px white;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 2.5px;
+}
